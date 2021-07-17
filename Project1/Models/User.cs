@@ -7,10 +7,10 @@ namespace Project1
 {
     public class User
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
         public int CreditCardNo { get; set; }
-        public int CVC { get; set; }
+        public int CCV { get; set; }
         public DateTime ExpiryDate { get; set; }
     }
 }
